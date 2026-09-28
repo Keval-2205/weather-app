@@ -1,0 +1,11 @@
+<!--
+Add these keys inside the <dict> of ios/Runner/Info.plist
+(they are REQUIRED for location access on iOS, or the app will crash when
+requesting the user's location).
+-->
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app uses your location to show the weather for where you are.</string>
+
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>This app uses your location to show the weather for where you are.</string>
